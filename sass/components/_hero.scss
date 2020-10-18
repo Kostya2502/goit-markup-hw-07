@@ -1,0 +1,46 @@
+.overlay {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	max-width: 1600px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/business.jpg);
+	background-color: #c4c4c4;
+	/* outline: 1px solid red; */
+}
+
+.hero {
+	display: block;
+	text-align: center;
+}
+
+.hero-title {
+	margin-top: 0;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	color: $secondary-text-color;
+	width: 696px;
+	height: 120px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.button,
+.btn-subscribe {
+	padding: 10px 32px;
+	border-radius: 4px;
+	align-items: center;
+	display: inline-block;
+
+	color: $secondary-text-color;
+	background-color: $accent-color;
+	text-decoration: none;
+}
