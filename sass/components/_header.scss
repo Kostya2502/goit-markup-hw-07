@@ -5,10 +5,10 @@
 	font-size: 26px;
 	line-height: 1.19;
 	text-decoration: none;
-}
 
-.logo > span {
-	color: $title-text-color;
+	> span {
+		color: $title-text-color;
+	}
 }
 
 header {
@@ -28,10 +28,10 @@ header {
 .site-nav {
 	display: flex;
 	margin-left: 93px;
-}
 
-.site-nav .item + .item {
-	margin-left: 50px;
+	.item + .item {
+		margin-left: 50px;
+	}
 }
 
 .site-nav .link {
@@ -71,6 +71,10 @@ header {
 .info {
 	display: flex;
 	margin-left: auto;
+
+	.item + .item {
+		margin-left: 50px;
+	}
 }
 
 .info .link {
@@ -90,10 +94,6 @@ header {
 	&:focus {
 		color: $accent-color;
 	}
-}
-
-.info .item + .item {
-	margin-left: 50px;
 }
 
 .info-icon {

@@ -28,17 +28,17 @@
 	background-color: $primary-bg-color;
 	transform: translate(-50%, -50%) scale(1);
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal > b {
-	display: block;
-	margin-bottom: 12px;
+	> b {
+		display: block;
+		margin-bottom: 12px;
 
-	color: $title-text-color;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 1.15;
-	text-align: center;
+		color: $title-text-color;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.15;
+		text-align: center;
+	}
 }
 
 .backdrop.is-hidden .modal {

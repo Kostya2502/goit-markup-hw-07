@@ -3,37 +3,37 @@
 	padding-bottom: 60px;
 
 	background: #2f303a;
-}
 
-.footer .address {
-	margin-bottom: 9px;
+	.address {
+		margin-bottom: 9px;
 
-	color: $secondary-text-color;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	font-style: normal;
-}
+		color: $secondary-text-color;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+		font-style: normal;
+	}
 
-.footer .link {
-	color: rgba(255, 255, 255, 0.6);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-	text-decoration: none;
-}
+	.link {
+		color: rgba(255, 255, 255, 0.6);
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+		text-decoration: none;
+	}
 
-.footer b {
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 1.17;
-	font-style: normal;
-	color: $secondary-text-color;
-	text-transform: uppercase;
-}
+	b {
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 1.17;
+		font-style: normal;
+		color: $secondary-text-color;
+		text-transform: uppercase;
+	}
 
-.footer .social-list {
-	margin-left: 0;
+	.social-list {
+		margin-left: 0;
+	}
 }
 
 .footer-container {
