@@ -3,37 +3,37 @@
 	padding-bottom: 60px;
 
 	background: #2f303a;
+}
 
-	& .address {
-		margin-bottom: 9px;
+.footer .address {
+	margin-bottom: 9px;
 
-		color: $secondary-text-color;
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
-		font-style: normal;
-	}
+	color: $secondary-text-color;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	font-style: normal;
+}
 
-	& .link {
-		color: rgba(255, 255, 255, 0.6);
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
-		text-decoration: none;
-	}
+.footer .link {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	text-decoration: none;
+}
 
-	& b {
-		font-size: 14px;
-		font-weight: 700;
-		line-height: 1.17;
-		font-style: normal;
-		color: $secondary-text-color;
-		text-transform: uppercase;
-	}
+.footer b {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.17;
+	font-style: normal;
+	color: $secondary-text-color;
+	text-transform: uppercase;
+}
 
-	& .social-list {
-		margin-left: 0;
-	}
+.footer .social-list {
+	margin-left: 0;
 }
 
 .footer-container {
@@ -50,15 +50,21 @@
 	}
 }
 
-.box-address {
-	display: flex;
-	flex-direction: column;
+.box {
+	&-address {
+		display: flex;
+		flex-direction: column;
 
-	width: 270px;
-}
+		width: 270px;
+	}
 
-.box-links {
-	width: 270px;
+	&-links {
+		width: 270px;
+	}
+
+	&-subscribe {
+		width: 570px;
+	}
 }
 
 .address a {
@@ -81,10 +87,6 @@
 	&:focus {
 		background-color: $accent-color;
 	}
-}
-
-.box-subscribe {
-	width: 570px;
 }
 
 .subscribe {

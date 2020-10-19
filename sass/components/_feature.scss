@@ -1,32 +1,35 @@
 .feature-list {
 	display: flex;
-	& .thumb {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 30px;
-		width: 270px;
-		height: 120px;
-		background-color: $secondary-bg-color;
-	}
-	& .title {
-		margin-top: 0;
-		margin-bottom: 10px;
+}
 
-		color: $title-text-color;
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 1.14;
-		text-transform: uppercase;
-	}
-	& p {
-		margin-bottom: 0;
-		margin-top: 0;
+.feature-list .thumb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	width: 270px;
+	height: 120px;
+	background-color: $secondary-bg-color;
+}
 
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 1.71;
-	}
+.feature-list .title {
+	margin-top: 0;
+	margin-bottom: 10px;
+
+	color: $title-text-color;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.feature-list p {
+	margin-bottom: 0;
+	margin-top: 0;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
 }
 
 .feature-icon {
